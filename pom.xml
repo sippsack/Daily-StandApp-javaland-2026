@@ -16,7 +16,8 @@
     <junit.jupiter.version>6.0.0</junit.jupiter.version>
     <assertj.version>3.26.0</assertj.version>
     <jgit.version>6.10.0.202406032230-r</jgit.version>
-    <skainet.version>0.15.3</skainet.version>
+    <skainet.version>0.16.0</skainet.version>
+    <skainet-transformers.version>0.16.0</skainet-transformers.version>
     <maven.compiler.plugin.version>3.12.1</maven.compiler.plugin.version>
     <maven.surefire.version>3.2.5</maven.surefire.version>
   </properties>
@@ -28,9 +29,9 @@
       <version>${skainet.version}</version>
     </dependency>
     <dependency>
-      <groupId>sk.ainet.core</groupId>
-      <artifactId>skainet-apps-kllama-jvm</artifactId>
-      <version>${skainet.version}</version>
+      <groupId>sk.ainet.transformers</groupId>
+      <artifactId>skainet-transformers-runtime-kllama-jvm</artifactId>
+      <version>${skainet-transformers.version}</version>
     </dependency>
     <dependency>
       <groupId>sk.ainet.core</groupId>
@@ -43,9 +44,9 @@
       <version>${skainet.version}</version>
     </dependency>
     <dependency>
-      <groupId>sk.ainet.core</groupId>
-      <artifactId>skainet-llm-jvm</artifactId>
-      <version>${skainet.version}</version>
+      <groupId>sk.ainet.transformers</groupId>
+      <artifactId>skainet-transformers-core-jvm</artifactId>
+      <version>${skainet-transformers.version}</version>
     </dependency>
     <dependency>
       <groupId>sk.ainet.core</groupId>
